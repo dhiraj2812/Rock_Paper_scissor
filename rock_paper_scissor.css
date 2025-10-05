@@ -3,20 +3,21 @@ body {
   background: linear-gradient(135deg, #ece9e6, #ffffff);
   text-align: center;
   padding: 40px;
+  margin-top: 350px;
 }
 
 p {
   font-weight: bold;
-  font-size: 18px;
-  margin: 15px 0;
+  font-size: 30px;
+  margin: 25px 0;
 }
 
 button {
   background-color: #4CAF50;
   color: white;
   text-align: center;
-  font-size: 50px;
-  margin: 10px;
+  font-size: 70px;
+  margin: 20px;
   border-radius: 200px;
   border-color: #333;
   cursor: pointer;
@@ -34,7 +35,7 @@ button:active {
 
 .reset-btn {
   background-color: #4CAF50;
-  font-size: 20px;
+  font-size: 30px;
   padding: 12px 25px;
 }
 
@@ -43,20 +44,16 @@ button:active {
 }
 
 .js-result {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   color: #333;
 }
 
 .js-score {
-  font-size: 20px;
+  font-size: 30px;
   color: #555;
 }
 
-/* Styles for mobile devices */
-@media only screen and (max-width: 480px) {
-  body {
-    margin-top: 180px;
-    font-size: 25px;
-  }
-}
+
+
+  
