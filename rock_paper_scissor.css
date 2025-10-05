@@ -53,48 +53,10 @@ button:active {
   color: #555;
 }
 
-/* Responsive styles for phones */
-@media only screen and (max-width: 600px) {
-  button {
-    font-size: 40px; /* slightly smaller buttons for small screens */
-    margin: 10px auto; /* center horizontally */
-    display: block; /* stack buttons vertically */
-  }
-
-  /* Pyramid layout */
-  .button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .button-row {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  /* For pyramid effect, use nested rows */
-  .row-top {
-    justify-content: center;
-  }
-
-  .row-bottom {
-    justify-content: space-around;
-    width: 80%;
-  }
-
-  .reset-btn {
-    font-size: 18px;
-    padding: 10px 20px;
-    margin-top: 20px;
-  }
-
-  .js-result {
-    font-size: 20px;
-  }
-
-  .js-score {
-    font-size: 16px;
+/* Styles for mobile devices */
+@media only screen and (max-width: 480px) {
+  body {
+    margin-top: 180px;
+    font-size: 25px;
   }
 }
